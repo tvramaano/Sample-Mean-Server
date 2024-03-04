@@ -15,24 +15,6 @@ connection.connect((err) => {
     console.log("Connected")
 });
 
-let saved_samples_arr = [
-    {
-        sample_title: "Saved Sample 1",
-        sample_date: "Monday, 2023-11-27",
-        sample_data: [1,2,3]
-    },
-    {
-        sample_title: "Saved Sample 2",
-        sample_date: " Sunday, 2023-11-26",
-        sample_data: [4,5,6]
-    },
-    {
-        sample_title: "Saved Sample 3",
-        sample_date: " Sunday, 2023-14-26",
-        sample_data: [7,8,9]
-    },]
-
-
 app.use(cors())
 app.use(express.json())
 
